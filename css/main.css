@@ -1,0 +1,190 @@
+/************
+ * 页面样式
+ ************/
+html{
+    font-size: 62.5%;
+    color: #222
+}
+::selection{
+    text-shadow: none;
+    background-color: #b3d4fc;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+/* ===========
+     工具样式
+   ===========
+*/
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pull-right{
+    float: right !important;
+}
+.pull-left{
+    float: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.text-left{
+    text-align: left !important;
+}
+.invisible{
+    visibility: hidden;
+}
+.text-hide{
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.clearfix:before,.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.browserupgrade{
+    margin: 0;
+    padding: 1rem;
+    background: #ccc;
+}
+/* ==============
+    自定义页面样式
+=================
+*/
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    background: #f7f7f7;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: #0ae;
+    text-decoration: underline;
+}
+
+/* 网站头部 */
+header{
+    width:100%;
+}
+header .top{
+    line-height: 3rem;
+    padding: 0 1.5rem;
+    background: #555;
+    color: #fff;
+    border-bottom: 1px #ecc000 solid;
+}
+header .top .tel{
+    float: left;
+}
+header .top ul{
+    text-align: right;
+    
+}
+header .top ul li{
+    display: inline-block;
+}
+header .top ul li +li{
+    border-left: 1px solid #999;
+    margin-left: -3px;
+}
+header .top ul li a{
+    display: inline-block;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+header .main{
+    padding: 0;
+}
+header .main .brand{
+    float: left;
+    padding: 1rem 1.5rem 0;
+}
+header .main ul{
+    text-align: right;
+}
+header .main ul li{
+    display: inline-block;
+    border-left: 1px solid #f0ede9;
+
+}
+header .main ul li a{
+    display: inline-block;
+    padding: 0 2.5rem;
+    line-height: 5.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #7c7a65;
+    text-decoration: none;
+}
+header .main ul li a:hover,header .main ul li a:active{
+    color: #ffb300;
+    background: #f8f6f1;
+}
+
+/* 网站主要内容 */
+.container{
+    width: 100%;
+}
+.transaction{
+    width: 100%;
+    background: #7c7365;
+}
+.trans-content{
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.trans-data{
+    float: left;
+    padding: 1rem;
+    /* text-align: left; */
+}
+.trans-data span{
+    display: inline-block;
+    line-height: 3rem;
+    
+}
+.trans-data .trans-money{
+    font-size: 2.2rem;
+    color: #f90;
+    letter-spacing: 3px;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 1px 2px 1px #333 inset;
+}
+.trans-content .trans-report{
+    text-align: right;
+
+}
+.trans-content .trans-report a{
+    display: inline-block;
+    line-height: 3rem;
+    padding: 1rem;
+    color: #fff;
+}
+/* 网站底部 */
+footer{
+    width: 100%;
+}
